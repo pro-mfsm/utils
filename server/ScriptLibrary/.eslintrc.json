@@ -1,0 +1,42 @@
+{
+  "extends": "eslint-config-airbnb-base/legacy.js",
+  "parserOptions": {
+    "ecmaVersion": 3,
+    "sourceType": "script"
+  },
+  "globals": {
+    "Attachment": true,
+    "lib": true,
+    "system": true,
+    "vars": true,
+    "callrad": true,
+    "compile": true,
+    "execute": true,
+    "funcs": true,
+    "getLastRC": true,
+    "getLog": true,
+    "MailReceiver": true,
+    "makeDir": true,
+    "readFile": true,
+    "rteJSONParse": true,
+    "rteJSONStringify": true,
+    "sysExec": true,
+    "writeFile": true,
+    "RC_ERROR": true,
+    "RC_SUCCESS": true,
+    "RCtoString": true,
+    "SCFILE_READONLY": true,
+    "SCFILE_ASC": true,
+    "SCFILE_DSC": true,
+    "SCDatum": true,
+    "SCFile": true,
+    "stripHtml": true,
+    "XML": true
+  },
+  "rules": {
+    "func-names": [ "off" ],
+    "no-param-reassign": [ "error", { "props": false } ],
+    "no-underscore-dangle": [ "error", { "allow": ["_null", "_super"] } ],
+    "quote-props": [ "error", "as-needed", { "keywords": true } ]
+  }
+}

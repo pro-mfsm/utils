@@ -1,0 +1,23 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Micro Focus Service Manager Utils",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pro-mfsm/utils"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pro.mfsm",
+  "license": "MIT"
+}
